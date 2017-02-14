@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Permissions that the app needs
 
-You can use the [editor on GitHub](https://github.com/texterapp/Texter/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The permissions that the Texter app requires are: 
+- Permissions to Set Alarm
+- Permissions to Receive Boot Completed
+- Permissions to Send SMS
+- Permissions to Read Contacts
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The app has not included the permission to use internet on your phone, so anything that the app has access to never leaves your phone.
 
-### Markdown
+Valuing user privacy, the Texter app has not requested the permission to read your phone's SMS, like a lot of the other texting apps do.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Below you will find details on each of the permissions requested.
 
-```markdown
-Syntax highlighted code block
+## Permission To Set Alarm
 
-# Header 1
-## Header 2
-### Header 3
+The app requests the permission to set an alarm so that the app can set an alarm to know when it is time to send the text message that you have scheduled to be sent. Without this permission, it would not be possible for the app to know when it is time to send the scheduled text.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Permission To Receive Boot Completed
 
-**Bold** and _Italic_ and `Code` text
+When the phone shuts down or restarts, all the alarms for scheduled texts and reminders are canceled. To restore them, the app has requested to be notified when the phone is turned on, so that the app can restore all pending text schedules and reminders.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Permission To Send SMS
 
-### Jekyll Themes
+This is the main permission that the app uses to send SMS to people that you choose.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/texterapp/Texter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Permission To Read Contacts
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+When scheduling SMS, to make it easier for you, the app requests that it has permission to read your contacts so that it can show you a list of all your contacts that you can choose from, as recipients for your scheduled texts. Without this permission, you would have to manually look up phone numbers in your Contacts app and copy paste phone numbers one at a time. 
+This was requested to make it more convinient for you to choose people that you want to text.
