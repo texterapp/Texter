@@ -1,6 +1,6 @@
 ## Permissions that the app needs
 
-The Texter Android app requires following permissions: 
+The Txtr Android app requires following permissions: 
 
 - Permission to Set Alarm
 - Permission to Receive Boot Completed
@@ -9,7 +9,7 @@ The Texter Android app requires following permissions:
 
 The app has not included the permission to use internet on your phone, so anything that the app has access to never leaves your phone.
 
-Valuing user privacy, the Texter app has not requested the permission to read your phone's SMS, like a lot of the other texting apps do.
+Valuing user privacy, the Txtr app has not requested the permission to read your phone's SMS, like a lot of the other texting apps do.
 
 Below you will find details on each of the permissions requested.
 
