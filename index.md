@@ -2,10 +2,10 @@
 
 The Texter Android app requires following permissions: 
 
-- Permissions to Set Alarm
-- Permissions to Receive Boot Completed
-- Permissions to Send SMS
-- Permissions to Read Contacts
+- Permission to Set Alarm
+- Permission to Receive Boot Completed
+- Permission to Send SMS
+- Permission to Read Contacts
 
 The app has not included the permission to use internet on your phone, so anything that the app has access to never leaves your phone.
 
