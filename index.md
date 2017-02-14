@@ -1,7 +1,6 @@
 ## Permissions that the app needs
 
-The permissions that the Texter app requires are: 
-
+The permissions that the Texter app require are: 
 
 - Permissions to Set Alarm
 - Permissions to Receive Boot Completed
@@ -33,11 +32,10 @@ This is the main permission that the app uses to send SMS to people that you cho
 When scheduling SMS, to make it easier for you, the app requests that it has permission to read your contacts so that it can show you a list of all your contacts that you can choose from, as recipients for your scheduled texts. Without this permission, you would have to manually look up phone numbers in your Contacts app and copy paste phone numbers one at a time. 
 This was requested to make it more convinient for you to choose people that you want to text.
 
-
 ## Moreover
 
-SMS is only sent to the people that you choose at the time that you choose, unless there is a small difference in time (since the Android System decides when it is most convenient for the alarm to go off).
+SMS is only sent to the people that you choose at the time that you choose, unless there is a small difference in time (since the Android System decides when it is most convenient for the alarm to go off), or your phone restarts and the text is attempted to be re-sent when the phone turns on next.
 
 The contacts that we read from your phone is not used for any other reason, other than to know who to text once you've picked those contacts.
 
-The app has not requested internet access, so you can practically use the app with Cellular data and Wifi data turned off. Most phones can text without data and Wifi since the app can only send 'Text' only SMS.
+The app has not requested internet access, so you can practically use the app with Cellular data and Wifi turned off. Most phones can text without data and Wifi since the app can only send 'Text' only SMS.
