@@ -1,6 +1,6 @@
 ## Permissions that the app needs
 
-The permissions that the Texter app require are: 
+The Texter Android app requires following permissions: 
 
 - Permissions to Set Alarm
 - Permissions to Receive Boot Completed
